@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Pedidos from './cardapio/pedidos';
 
 ReactDOM.render(  
-   <h1>Teste</h1>,   
+     <Pedidos/>,   
   document.getElementById('root')
 );
 
