@@ -1,6 +1,9 @@
+import Header from "../../components/Header";
+
 function Pedidos(){
     return <>
-        <h1>Pedidos na Fila</h1>    
+    <Header/>
+    <h1>Pedidos na Fila</h1>    
     </>
 }
 
