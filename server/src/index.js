@@ -1,9 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const PORT = 3000;
-
 const db = require('./config/database');
-const { response, request } = require('express');
+
 const app = express();
 
 //Middleware JSON e CORS
