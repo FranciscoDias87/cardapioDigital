@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Pedidos from './cardapio/pedidos';
+import Pedidos from './pages/pedidos';
 import './CSS/global.css';
 
 
