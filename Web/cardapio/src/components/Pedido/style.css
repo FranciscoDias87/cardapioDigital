@@ -1,0 +1,12 @@
+.pedido{
+    background-color: #fff;
+    min-height: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(243,243,243);
+    padding: 15px;
+}
+
+.foto-item{
+    max-width: 60px;
+}
