@@ -107,18 +107,15 @@ app.get('/pedidos/itens', function (req, res) {
     */
 });
 
-app.put('/pedidos/status', function (req, res) {
+app.put('/pedidos/status/:id_pedido', function (req, res) {
 
-  let ssql = "select c.descricao as categoria, p.* ";
-  ssql += "from produto p ";
-  ssql += "join produto_categoria c on (c.id_categoria = p.id_categoria) ";
-  ssql += "order by c.ordem"
+  let ssql = "update pedido set status = ? where id_pedido = ?";
 
-  db.query(ssql, function (err, result) {
+  db.query(ssql, [req.body.status, req.params.id_pedido], function (err, result) {
     if (err) {
       return res.status(500).send(err);
     } else {
-      return res.status(200).json(result);
+      return res.status(200).json({id_pedido: req.params.id_pedido});
     }
   });
 });
