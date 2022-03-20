@@ -1,7 +1,6 @@
 function Pedidos(){
     return <>
-    <h1>Pedidos na Fila</h1>
-    
+        <h1>Pedidos na Fila</h1>    
     </>
 }
 
