@@ -1,6 +1,13 @@
+import './style.css';
+import Logo from '../../assets/logo1.png';
+
 function Header(){
-    return <div>
-        <h1>Header</h1>
+    
+    return <div className='header'>
+        <div className='logo'>
+            <img src={Logo} alt="Gellats Lanches" />
+            <h3>Gellats Lanches</h3>
+        </div>
     </div>
 }
 
