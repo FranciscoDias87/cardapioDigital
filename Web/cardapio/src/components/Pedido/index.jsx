@@ -20,7 +20,7 @@ function listarPedido(props) {
 
     </div>
 
-    <div className='d-flex align-itens-center'>
+    <div className='d-flex align-itens-center me-4'>
       <div className="dropdown">
         <a className="btn btn-secondary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Status
@@ -29,7 +29,7 @@ function listarPedido(props) {
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <li><a className="dropdown-item" href="/">Aguardando</a></li>
           <li><a className="dropdown-item" href="/">Em produção</a></li>
-          <li><a className="dropdown-item" href="/">Sai para entrega</a></li>
+          <li><a className="dropdown-item" href="/">Saiu para entrega</a></li>
           <li><a className="dropdown-item" href="/">Finalizar</a></li>
         </ul>
       </div>
