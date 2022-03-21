@@ -4,8 +4,8 @@ function listarPedido(props) {
   return <div className='d-flex justify-content-between shadow-sm pedido'>
     <div>
       <span><b>Pedido #{props.id_pedido}</b></span>
-      <span className='badge rouded-pill bg-secondary ms-2'>{props.dt_pedido}</span>
-      <span className='badge rouded-pill bg-success ms-2'>{props.status}</span>
+      <span className='badge rouded-pill bg-secondary ms-3'>{props.dt_pedido}</span>
+      <span className='badge rouded-pill bg-success ms-3'>{props.status}</span>
       <small className='d-block mt-1 text-secondary'>{props.nome} - {props.endereco}</small>
 
       {
