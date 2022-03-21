@@ -89,6 +89,7 @@ function Pedidos() {
                 endereco={item.endereco}
                 item={item.itens}              
               />
+              
             })            
           } 
             
