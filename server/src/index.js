@@ -134,7 +134,7 @@ app.get('/pedidos/itens', function (req, res) {
           if (pedResult.id_pedido == ped.id_pedido) {
             itens.push({
               id_item: pedResult.id_item,
-              url_foto: pedResult.url_foto, 
+              url_foto: pedResult.url_foto,
               name: pedResult.nome,
               qtd: pedResult.qtd
             });
