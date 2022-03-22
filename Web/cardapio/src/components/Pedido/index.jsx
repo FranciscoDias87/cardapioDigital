@@ -20,7 +20,7 @@ function listarPedido(props) {
 
     </div>
 
-    <div className='d-flex align-itens-center me-4'>
+    <div className='d-flex align-items-center me-4'>
       <div className="dropdown">
         <a className="btn btn-secondary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Status
