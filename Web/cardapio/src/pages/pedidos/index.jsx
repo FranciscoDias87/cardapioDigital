@@ -32,7 +32,7 @@ function Pedidos() {
     <div className="container-fluid">
       <div className="m-3 mt-4 d-flex justify-content-between">
         <h2>Pedidos na Fila</h2>
-        <button className="btn btn-lg btn-primary">Atualizar</button>
+        <button onClick={ListarPedidos} className="btn btn-lg btn-primary">Atualizar</button>
       </div>
 
       <div className="m-2 mt-4">
